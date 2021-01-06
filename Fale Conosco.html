@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<meta charset="utf-8">
+ 		<title>OporEmpregos</title>
+ 		<link rel="stylesheet" type="text/css" href=""/>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" type="text/css"/>
+ 		<link rel="stylesheet" href="./public/css/Style.css"> 
+ 		<script type="text/javascript">
+ 			function validaEmail(){
+						if(!document.fCadastro.email.value.includes('@')){
+					alert("E-mail inválido");
+				}}
+ 		</script>
+</head>
+	<body>
+		<div class="header">
+ 	 		<div class="linha">
+ 	 		<header>
+ 	 			<div class="coluna col4">
+ 	 				<h1 class="logo">OporEmpregos</h1>
+ 	 			</div>
+ 	 			<div class="coluna col8">
+ 	 				<nav>
+ 	 					<ul class="menu inline sem marcador">
+							<li><a href="index.html">home</a></li>
+ 	 						<li><a href="Login.html">Login</a></li>
+ 	 						<li><a href="Cadastro.html">Cadastro</a></li
+ 	 						>
+ 	 						<li><a href="Sobre.html">Sobre</a></li>
+ 	 						<li><a href="Fale Conosco.html">Fale Conosco</a></li>
+ 	 						<li><a href="contato.html">contato</a></li>			
+ 	 					</ul>
+ 	 				</nav>
+ 	 				</header>
+ 	 			</div>
+ 	 		</div>
+ 	 		<div class="coluna col7 contato">
+ 	 			<h2 class="tema">Trabalhe conosco</h2>
+ 	 			<form name="fCadastro">
+ 	 				<label form="nome">Nome da Empresa:</label>
+ 	 				<input type="text" name="nome" id="nome" placeholder="Digite o nome da empresa">
+ 	 				<br><br>
+
+ 	 				<label form="Confirme a senha">Ramo da Empresa:</label>
+ 	 				<input type="text" name="Ramo e público alvo" id="Ramo e público alvo" placeholder="Digite o ramo empresarial">
+ 	 				<br><br>
+
+ 	 				<label form="Senha">Cnpj:</label>
+ 	 				<input type="text" name="Cnpj" id="Cnpj" placeholder="Digite o Cnpj da Empresa">
+ 	 				<br><br>
+
+ 	 				<label form="E-mail">E-mail para Contato:</label>
+ 	 				<input type="text" name="email para contato" id="email para contato" placeholder=" Digite o e-mail">
+ 	 				<br><br>
+
+ 	 				<label form="idade">Tel para contato:</label>
+ 	 				<input type="text" name="Tel para contato" id="Tel para contato" placeholder="Digite o telefone">
+ 	 				<br><br>
+
+ 	 				<label form="Confirme a senha">Público alvo:</label>
+ 	 				<input type="text" name="Ramo e público alvo" id="Ramo e público alvo" placeholder="Digite o público´alvo">
+ 	 				<br><br>
+
+ 	 				<textarea name="mensagem" id="mensagem"></textarea>
+ 	 				<input class="botom" type="button" name="btEmail" value="Enviar mensagem" onclick="validaEmail()"/>
+ 	 			</form>		
+ 	 		</div>
+ 	 	</div>
+ 	 	<div class="linha">
+ 	 		<footer>
+ 	 			<div class="coluna col12">
+ 	 				<span>&copy; 2021 - OporEmpregos</span>
+ 	 			</div>
+ 	 		</footer>
+ 	 	</div>
+	  </div>
+	  
+	  <script src="public/scripts/JavaScript.js"></script>
+	</body>
+</html>

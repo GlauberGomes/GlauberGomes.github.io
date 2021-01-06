@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+ 		<title>OporEmpregos</title>
+ 		<link rel="stylesheet" type="text/css" href=""/>
+ 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" type="text/css"/>
+ 		<link rel="stylesheet" href="./public/css/Style.css"> 
+ 		<script type="text/javascript">
+ 			function validaEmail(){
+						if(!document.fCadastro.email.value.includes('@')){
+					alert("E-mail inválido");
+				}}
+ 		</script>
+		</head>	 
+	</head>
+	<body>
+		<div class="header">
+ 	 		<div class="linha">
+ 	 		<header>
+ 	 			<div class="coluna col4">
+ 	 				<h1 class="logo">OporEmpregos</h1>
+ 	 			</div>
+ 	 			<div class="coluna col8">
+ 	 				<nav>
+ 	 					<ul class="menu inline sem marcador">
+							<li><a href="index.html">home</a></li>
+ 	 						<li><a href="Login.html">Login</a></li>
+ 	 						<li><a href="Cadastro.html">Cadastro</a></li
+ 	 						>
+ 	 						<li><a href="Sobre.html">Sobre</a></li>
+ 	 						<li><a href="Fale Conosco.html">Fale Conosco</a></li>
+ 	 						<li><a href="Contato.html">Contato</a></li>			
+ 	 					</ul>
+ 	 				</nav>
+ 	 		</header>
+ 	 	</div>
+ 	 </div>
+ 	 <div class="linha">
+ 	 	<section>
+ 	 		<div class="coluna col5 sidebar">
+ 	 			<h3 class="tema">Informações</h3>
+ 	 			<img src="./public/img/oporEmpregos.jpg" alt="/">
+ 	 			<ul  class="sem-padding sem-marcador">
+ 	 				<li>Rua Almirante Barros, Edificio 107, Bloco B</li>
+ 	 				<li>Bairro Espaço Verde</li>
+ 	 				<li>Centro-NF</li>
+ 	 			</ul>
+ 	 			<h3 class="tema">Contato direto</h3>
+ 	 			<ul class="sem-padding sem-marcador">
+ 	 				<li>Fone:<strong>(00)1234-5678</strong></li>
+ 	 				<li>Fone:<strong>(00)00000-0000</strong></li>
+ 	 				<li>E-mail:<strong>oporEmpregosComercial@gmail.com</strong></li>
+ 	 				
+ 	 			</ul>
+ 	 		</div>
+ 	 		<div class="coluna col7 contato">
+ 	 			<h2 class="tema">Envie sua mensagem</h2>
+ 	 			<form name="fCadastro">
+ 	 				<label form="nome">Nome:</label>
+ 	 				<input type="text" name="nome" id="nome">
+ 	 				<label form="nome">E-mail:</label>
+ 	 				<input type="text" name="email" id="email">
+ 	 				<label form="nome">Cidade:</label>
+ 	 				<input type="text" name="Cidade" id="Cidade">
+ 	 				<label form="mensagem">Mensagem:</label>
+ 	 				<textarea name="mensagem" id="mensagem"></textarea>
+ 	 				<input class="botom" type="button" name="btEmail" value="Enviar" onclick="validaEmail()"/>
+ 	 			</form>		
+ 	 		</div>
+ 	 	</section>
+ 	 </div>
+ 	 <div class="footer">
+ 	 	<div class="linha">
+ 	 		<footer>
+ 	 			<div class="coluna col12">
+ 	 				<span>&copy; 2021 - OporEmpregos</span>
+ 	 			</div>
+ 	 		</footer>
+ 	 	</div>
+	  </div>
+	<script src="public/scripts/JavaScript.js"></script>
+ </body>
+ </html>
